@@ -6,7 +6,7 @@
 /*   By: zel-baji <zel-baji@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/21 15:03:43 by zel-baji          #+#    #+#             */
-/*   Updated: 2025/03/19 19:32:43 by zel-baji         ###   ########.fr       */
+/*   Updated: 2025/03/19 21:53:14 by zel-baji         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,8 +63,8 @@ int	valid_map_content(char **map)
 		}
 		help.i++;
 	}
-	if ((help.player < 1 && < 1 && help.collectible < 1)
-		||  help.exitt || help.player > 1 || help.exitt > 1)
+	if ((help.player < 1 && help.collectible < 1)
+		||  help.exitt > 1 || help.player > 1 || help.exitt > 1)
 		return (0);
 	return (1);
 }
