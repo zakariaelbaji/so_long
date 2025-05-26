@@ -1,5 +1,5 @@
 CC = cc
-CFLAGS =  -Wall -Wextra -Werror
+CFLAGS =  -Wall -Wextra -Werror -Iinc
 
 MLX_DIR = /usr/include/minilibx-linux
 
